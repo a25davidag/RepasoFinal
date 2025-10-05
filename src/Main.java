@@ -2,7 +2,8 @@ import java.util.Scanner;
 
 public  class Main {
     public static void main(String[] args) {
-       /* Scanner sp = new Scanner(System.in);
+        //1: Pedir 5 números, y mostrar al final si se ha introducido alguno negativo.
+        Scanner sp = new Scanner(System.in);
         int[] numeros = new int[5];
         for (int i = 0; i < numeros.length; i++){
             System.out.println("introduce nuemeros");
@@ -14,7 +15,7 @@ public  class Main {
         }else{
             System.out.println("no hay numeros negativos");
         }
-
+        //2 Pedir números e indicar si es múltiplo de 3. El programa finaliza con -1
         Scanner sj = new Scanner(System.in);
         int multiplo;
         do {
@@ -26,12 +27,13 @@ public  class Main {
                 System.out.println("no es multiplo");
             }
         } while (multiplo != -1);
-
+        //3 Leer 5 números y mostrarlos en orden inverso al introducido
         int[] inverso = {3, 7, 3, 9, 3};
         for (int i = 0; i < inverso.length; i++) {
             //System.out.println(inverso[inverso.length-i-1]);
             System.out.println(inverso.length-1-i);
-        }*/
+        }
+        //4 Realizar una aplicación que devuelva si una palabra es un palíndromo o no.
         Scanner pj = new Scanner(System.in);
         System.out.println("pon una palabra cualquiera");
         String palabra1 = pj.nextLine();
